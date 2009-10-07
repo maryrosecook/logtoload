@@ -1,11 +1,10 @@
-Logtoload
+logtoload
+
 Takes an Apache log and turns it into:
 	1. A list of URLs that were requested.
-	2. An XML file that can be used in the xxx load tester.
+	2. An XML file that can be used in the JMeter load tester.
 
-By: maryrosecook for the OTHER media
-http://maryrosecook.com
-maryrosecook@maryrosecook.com
+By maryrosecook for the OTHER media
 
 ----
 
