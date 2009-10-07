@@ -1,0 +1,12 @@
+</stringProp>
+	<stringProp name="HTTPSampler.method">GET</stringProp>
+	<boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+	<boolProp name="HTTPSampler.auto_redirects">true</boolProp>
+	<boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+	<boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+	<stringProp name="HTTPSampler.FILE_NAME"></stringProp>
+	<stringProp name="HTTPSampler.FILE_FIELD"></stringProp>
+	<stringProp name="HTTPSampler.mimetype"></stringProp>
+	<stringProp name="HTTPSampler.monitor">false</stringProp>
+	<stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+</HTTPSampler>

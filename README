@@ -1,0 +1,19 @@
+Logtoload
+Takes an Apache log and turns it into:
+	1. A list of URLs that were requested.
+	2. An XML file that can be used in the xxx load tester.
+
+By: maryrosecook for the OTHER media
+http://maryrosecook.com
+maryrosecook@maryrosecook.com
+
+----
+
+Quick run:   ruby main.rb "log.log" "urls.txt" "load_test.xml" false
+
+The script takes four command-line arguments:
+
+- filename for input log file (string, not nil)
+- filename for url list (string, or nil to not write file)
+- filename for load test xml (string, or nil to not write file)
+- whether to include URLs with params (true/false, not nil)
