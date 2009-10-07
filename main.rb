@@ -82,7 +82,7 @@ if LOG_FILENAME
   for url_type in urls.keys
     for url in urls[url_type]
       if url_type == NO_PARAMS
-        #xml_str += no_params1 + url + no_params2 + url + no_params3 + "\n\n"
+        xml_str += no_params1 + url + no_params2 + url + no_params3 + "\n\n"
       elsif url_type == PARAMS
         xml_str += params1 + url + params2 
         
@@ -96,7 +96,6 @@ if LOG_FILENAME
         end
       
         xml_str += params4 + url + params5 + "\n\n"
-        break if i > 20
         i += 1
       end
     end
